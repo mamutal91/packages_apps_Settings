@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 Project Blaze
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="custom_version">Sobre telefone</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Impondo</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
+
+    <!-- Blaze version preference -->
+    <string name="blaze_version">Blaze versão</string>
+
+    <!-- Blaze Maintainer -->
+    <string name="blaze_maintainer">Mantenedor do dispositivo</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+
+    <!-- Model and Hardware -->
+    <string name="blaze_processor_title">Processador</string>
+    <string name="blaze_storage_code_title">Armazenamento</string>
+    <string name="blaze_battery_type_title">Bateria</string>
+    <string name="blaze_screen_title">Tela</string>
+    <string name="net_info">Network</string>
+    <string name="mod_info">@string/model_info</string>
+    <string name="id_info">Identificadores</string>
+    <string name="model_summary">Model, phone number, IMEI, etc</string>
+    <string name="model_name">Status do dispositivo</string>
+    <string name="legal_summary">Licenses e legal</string>
+
+    <string name="usercard_summary">Usuário ativo atual, toque para mais informações</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Toque do celular - SIM 1</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Toque do celular - SIM 2</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Redefinir estatísticas</string>
+    <string name="battery_stats_message">As estatísticas do histórico da bateria serão redefinidas</string>
+
+    <!-- Dashboard messages -->
+    <string name="dashboard_morning1">Bom dia!</string>
+    <string name="dashboard_morning2">O sol está no céu!</string>
+    <string name="dashboard_morning3">Uma boa manhã..</string>
+    <string name="dashboard_morning4">Tenha um ótimo dia..</string>
+    <string name="dashboard_morning5">Um novo dia..</string>
+    <string name="dashboard_noon1">Boa tarde.</string>
+    <string name="dashboard_noon2">Aproveite o pôr do sol.</string>
+    <string name="dashboard_noon3">Bem-vindo a casa..</string>
+    <string name="dashboard_noon4">Aproveite o dia!</string>
+    <string name="dashboard_noon5">Bem vindo de volta..</string>
+    <string name="dashboard_early_night1">Boa noite..</string>
+    <string name="dashboard_early_night2">Hora do jantar!</string>
+    <string name="dashboard_night3">Bons sonhos!</string>
+    <string name="dashboard_night4">Hora de dormir agora..</string>
+    <string name="dashboard_night5">Boa noite!</string>
+    <string name="dashboard_midnight1">Já é tarde da noite..</string>
+    <string name="dashboard_midnight2">Você precisa de alguma ajuda..</string>
+    <string name="dashboard_midnight3">Durma um pouco..</string>
+    <string name="dashboard_midnight4">Já descanse um pouco..</string>
+    <string name="dashboard_midnight5">Dormir tarde é ruim para você..</string>
+    <string name="dashboard_random1">Deeeixe\'s Blaze..</string>
+    <string name="dashboard_random2">A barra de pesquisa está em pixels abaixo..</string>
+    <string name="dashboard_random3">Olá proprietário!</string>
+    <string name="dashboard_random4">Configurações</string>
+    <string name="dashboard_random5">Olá usuário!</string>
+    <string name="dashboard_random6">E aí?</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
+
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Barra de navegação</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Comprimento</string>
+    <string name="hide_label">Escondido</string>
+    <string name="long_label">Longo</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Completo</string>
+    <string name="back_height_high_label">Abaixo</string>
+    <string name="back_options_dialog_title">Opções</string>
+    <string name="back_height_message">Quantidade de altura da tela usada como região tocável para gesto de voltar.</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Feedback tátil</string>
+    <string name="back_gesture_haptic_summary">Ativar o efeito de marca tátil no gesto de voltar</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema preto</string>
+    <string name="system_black_theme_summary">Forçar cores de fundo pretas</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Melhore sua experiência em jogos</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do entalhe</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Layout de embaralhamento</string>
+    <string name="unlock_scramble_pin_layout_summary">Layout do PIN embaralhado ao desbloquear o dispositivo</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloqueie automaticamente quando o PIN/senha correto for inserido</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remova o reconhecimento facial existente e crie um novo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer reconhecimento facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover o reconhecimento facial existente e criar uma nova?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela está ligada</string>
+    <string name="face_unlock_method_swipe">Ao deslizar na tela de bloqueio</string>
+
+    <!-- App lock -->
+    <string name="app_lock_title">Bloqueio do aplicativo</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicativo está protegido</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicativos são protegidos</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Desblquear</string>
+    <string name="enable_debugging">Ativar depuração</string>
+    <string name="disable_debugging">Desativar depuração</string>
+    <string name="app_lock_packages_title">Aplicativos protegidos</string>
+    <string name="app_lock_packages_summary">Selecione os aplicativos para proteger com biometria ou credenciais do dispositivo</string>
+    <string name="app_lock_timeout_title">Tempo limite de bloqueio automático</string>
+    <string name="app_lock_timeout_summary">Duração do tempo após o qual um aplicativo desbloqueado em segundo plano deve ser bloqueado</string>
+    <string name="app_lock_notifications_title">Redigir notificações</string>
+    <string name="app_lock_notifications_summary">
+          O conteúdo da notificação ficará oculto e recolhido para aplicativos selecionados quando eles forem bloqueados.
+          As notificações de alerta serão desativadas automaticamente.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Proteger um aplicativo primeiro</string>
+    <string name="app_lock_biometrics_allowed_title">Habilitar biometria para desbloqueio</string>
+    <string name="app_lock_footer_text">As bolhas serão descartadas automaticamente após o tempo limite</string>
+    <string name="enable_protection">Ativar proteção</string>
+    <string name="hide_from_launcher_title">Ocultar do launche</string>
+    <string name="hide_from_launcher_summary">
+        Evite que este aplicativo apareça no launcher. Requer uma reinicialização do launche para que as alterações entrem em vigor.
+    </string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que os clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que clientes de ponto de acesso usem as conexões VPN deste dispositivo para conectividade upstream</string>
+
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">Luz de bateria fraca</string>
+    <string name="low_battery_light_summary">LED intermitente quando a bateria está fraca</string>
+
+    <!-- Battery stats -->
+    <string name="battery_stat_temp">Temperatura</string>
+    <string name="battery_stat_capacity">Capacidade</string>
+    <string name="battery_stat_cycle">Ciclo</string>
+
+    <!-- Per-app volume -->
+    <string name="app_volume">Volume do aplicativo</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Mostrar botão de volume por aplicativo na caixa de diálogo de volume</string>
+
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Pausa inteligente</string>
+    <string name="adaptive_playback_enabled">Usar pausa inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desligado</string>
+    <string name="adaptive_playback_intro_text">Pausa automaticamente a mídia quando o volume é silenciado e retoma automaticamente quando o volume é restaurado dentro do tempo definido.</string>
+    <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
+    <string name="adaptive_playback_timeout_none_summary">Ligado (sem tempo limite)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ligado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ligado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ligado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ligado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ligado (10 minutos)</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Sempre ligado durante o carregamento</string>
+    <string name="doze_on_charge_summary">Mostrar tela cochilo o tempo todo durante o carregamento</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslize para a captura de tela</string>
+    <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para fazer uma captura de tela</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
+    <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
+</resources>
